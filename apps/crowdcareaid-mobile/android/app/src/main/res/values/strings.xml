@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CrowdcareaidMobile</string>
+    <string name="facebook_app_id">2194222684276489</string>
+   <string name="facebook_client_token">ead18c6c527128fae30c8ac434996999</string>
+</resources>

@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@crowdcareaid-frontend/assets": ["libs/assets/src/index.ts"],
+      "@crowdcareaid-frontend/native-components": [
+        "libs/native-components/src/index.ts"
+      ],
+      "@crowdcareaid-frontend/next-actions": ["libs/next-actions/src/index.ts"],
+      "@crowdcareaid-frontend/next-components": [
+        "libs/next-components/src/index.ts"
+      ],
+      "@crowdcareaid-frontend/store": ["libs/store/src/index.ts"],
+      "@crowdcareaid-frontend/utils": ["libs/utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

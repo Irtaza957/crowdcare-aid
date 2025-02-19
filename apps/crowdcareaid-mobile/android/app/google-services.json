@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "378188165562",
+    "project_id": "crowdcareaid-3d2ba",
+    "storage_bucket": "crowdcareaid-3d2ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378188165562:android:2e7f07ab4581e74ffead83",
+        "android_client_info": {
+          "package_name": "com.crowdcareaidmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_2Y9SJiwEZdZvxRc7U0UK0nGPSvTxXeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "crowdcareaid-mobile",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "*",
+    "@react-native-community/datetimepicker": "*",
+    "@react-native/metro-config": "*",
+    "@shopify/flash-list": "*",
+    "metro-config": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-fast-image": "*",
+    "react-native-image-crop-picker": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "react-native-svg": "*",
+    "react-native-svg-transformer": "*",
+    "react-native-toast-message": "*",
+    "react-native-calendar-picker": "*",
+    "react-native-splash-screen": "*",
+    "@react-native-google-signin/google-signin" : "*",
+    "react-native-fbsdk-next": "*",
+    "@react-native-firebase/app": "*",
+    "@react-native-firebase/messaging": "*",
+    "@notifee/react-native": "*"
+
+  
+  },
+  "devDependencies": {}
+}

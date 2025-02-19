@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": false,
+  "tailwind": {
+    "config": "apps/crowdcareaid-web/tailwind.config.js",
+    "css": "apps/crowdcareaid-web/src/app/global.css",
+    "baseColor": "stone",
+    "cssVariables": true
+  },
+  "aliases": {
+    "components": "libs/next-components/src",
+    "utils": "@crowdcareaid-frontend/utils"
+  }
+}

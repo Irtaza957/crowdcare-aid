@@ -1,0 +1,131 @@
+import { Colors } from '@crowdcareaid-frontend/assets';
+import { normalizeSize } from '@crowdcareaid-frontend/utils';
+
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  Parent: {
+    flex: 1,
+    backgroundColor: Colors.white,
+  },
+  tabsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: normalizeSize(45),
+    borderWidth: 1,
+    width: '90%',
+    alignSelf: 'center',
+    height: normalizeSize(55),
+    borderRadius: normalizeSize(12),
+    alignItems: 'center',
+    borderColor: Colors.green,
+  },
+  tab: {
+    borderRadius: normalizeSize(10),
+    backgroundColor: Colors.white,
+    height: normalizeSize(40),
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '44%',
+    marginHorizontal: normalizeSize(10),
+  },
+  activeTab: {
+    backgroundColor: Colors.PrimaryColor,
+  },
+  container: {
+    backgroundColor: Colors.white,
+    marginVertical: 5,
+    borderRadius: 10,
+    width: '90%',
+    alignSelf: 'center',
+    elevation: 4,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    paddingHorizontal: normalizeSize(15),
+    paddingVertical: normalizeSize(15),
+  },
+  rowBetween: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  row: {
+    flexDirection: 'row',
+    gap: normalizeSize(10),
+    alignItems: 'center',
+  },
+  marginTop15: {
+    marginTop: normalizeSize(18),
+  },
+  marginTop5: {
+    marginTop: normalizeSize(5),
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    alignSelf: 'center',
+    justifyContent: 'space-between',
+    width: '90%',
+    alignItems: 'center',
+    marginTop: normalizeSize(20),
+  },
+  BorderView: {
+    width: '100%',
+    borderWidth: 1,
+    height: normalizeSize(6),
+    borderRadius: normalizeSize(10),
+    position: 'relative',
+    backgroundColor: Colors.lightGray,
+    alignSelf: 'center',
+  },
+  animatedView: {
+    height: normalizeSize(6),
+    borderRadius: 20,
+    bottom: normalizeSize(3),
+  },
+  ArrowBottom: {
+    height: normalizeSize(35),
+    width: normalizeSize(35),
+    backgroundColor: Colors.Lightgrey10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 50,
+    alignSelf: 'center',
+    position: 'relative',
+    bottom: normalizeSize(25),
+  },
+  imageContainer: {
+    flexDirection: 'row',
+    marginTop: normalizeSize(15),
+    justifyContent: 'space-between',
+  },
+  moreImageWrapper: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    bottom: normalizeSize(6),
+    marginLeft: normalizeSize(6),
+  },
+  moreButton: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    borderRadius: 5,
+    height: normalizeSize(30),
+    marginTop: normalizeSize(4),
+  },
+  moreText: {
+    color: 'white',
+    fontSize: normalizeSize(10),
+  },
+  image: {
+    width: normalizeSize(50),
+    height: normalizeSize(28),
+    borderRadius: 5,
+    top: normalizeSize(5),
+  },
+});

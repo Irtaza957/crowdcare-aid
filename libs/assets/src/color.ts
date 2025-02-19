@@ -1,0 +1,16 @@
+export const Colors = {
+  SecondaryColor: '#EA7E24',
+  PrimaryColor: '#1A3F1E',
+  white: '#FFFFFF',
+  Black: '#000000',
+  lightGray: '#858585',
+  ModalColor: 'rgba(0, 0, 0, 0.5)',
+  errorRed: '#FF002E',
+  disabled: '#a9a9a9',
+  lightblue: '#1A587C',
+  green: '#1A3F1E',
+  gray10: '#ccc',
+  Lightgrey10: '#D9D9D9',
+  skyColor: '#F0F4F7',
+  ToastColor: '#095c0d',
+};
